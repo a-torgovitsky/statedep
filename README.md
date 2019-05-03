@@ -10,26 +10,18 @@ Please download the most recent version of the code from [the GitHub repository]
 
 ### Software Requirements
 
-* [MATLAB](https://www.mathworks.com/products/matlab.html)
+* [MATLAB](https://www.mathworks.com/products/matlab.html). No special toolboxes are required.
 
-  No special toolboxes are required.
-
-* [A Mathematical Programming Language (AMPL)](http://ampl.com/)
-
- The trial/student version of AMPL is size restricted.
+* [A Mathematical Programming Language (AMPL)](http://ampl.com/). The trial/student version of AMPL is size restricted.
  Some limited versions of the code might run with the trial version, but a full license is required to reproduce the results in the paper.
 
-* A linear programming solver for AMPL
-
- The default is [CPLEX](https://www.ibm.com/analytics/cplex-optimizer).
+* A linear programming solver for AMPL.  The default is [CPLEX](https://www.ibm.com/analytics/cplex-optimizer).
  The default can be changed by passing e.g.  `Settings.Solver = 'gurobi'`
  when calling `./src/DPO.m`.
 
 * The [AMPL-MATLAB API](http://ampl.com/api/latest/matlab/getting-started.html)
 
-* Linux (or perhaps OSX)
-
- I coded this on a Linux system and made no attempt to be platform-independent.
+* Linux (or perhaps OSX). I coded this on a Linux system and made no attempt to be platform-independent.
  However, the code is primarily in MATLAB, so should be mostly platform-independent.
  Some file operations are used for recording the results.
  These would be likely sources of issues for other operating systems, but should
