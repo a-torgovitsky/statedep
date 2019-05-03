@@ -1,0 +1,10 @@
+*.pdf
+*.dta
+*.out
+/5_dpo/tables/TableTools.pyc
+/5_dpo/ampl/amplfunc.dll
+*.log
+/3_sumstats/SumStats_Show.aux
+/src/python/TableTools.pyc
+
+*.pyc
