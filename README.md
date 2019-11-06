@@ -1,6 +1,6 @@
 ## Nonparametric Inference on State Dependence in Unemployment
 
-This repository contains code for reproducing the empirical estimates and Monte Carlo simulations in [Torgovitsky, A.](https://a-torgovitsky.github.io/), ["Nonparametric Inference on State Dependence in Unemployment," _Econometrica_, (forthcoming, 2019)](https://a-torgovitsky.github.io/statedep.pdf)
+This repository contains code for reproducing the empirical estimates and Monte Carlo simulations in [Torgovitsky, A.](https://a-torgovitsky.github.io/), ["Nonparametric Inference on State Dependence in Unemployment," _Econometrica_, Vol. 87, No. 5 (September, 2019)](https://a-torgovitsky.github.io/statedep.pdf)
 
 ### Important
 
